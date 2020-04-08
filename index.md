@@ -1,141 +1,103 @@
 ---
 layout: cv
-title: Wode "Nimo" Ni
+title: 刘纯祥|个人简历
+phone: 19879976598
 email:
-  url: mailto:woden@cs.cmu.edu
-  text: woden@cs.cmu.edu
-homepage:
-  url: http://cs.cmu.edu/~woden
-  text: cs.cmu.edu/~woden
+  url: mailto:danranvm@gmail.com
+  text: danranvm@gmail.com
+
 ---
 
-# Wode **Ni**
+# 刘纯祥
 
 <!--
 include contact information from the front matter
 Supported arguments:
-    - homepage: url, text
+    - homepage: url， text
     - phone
     - email
 -->
 
 {% include cv-contact.html %}
 
-## Education
-
-### **Carnegie Mellon University** `2018.9 -`
+## 基本信息
 
 ```
-Pittsburgh, PA
+
+2012.09 - 2016.06
 ```
 
-- Ph.D. in Software Engineering
-- Co-advised by [Ken Koedinger](http://pact.cs.cmu.edu/koedinger.html) and [Josh Sunshine](http://www.cs.cmu.edu/~jssunshi/)
+- 👦男/26岁(1994.10)
+- 👨‍🎓本科/湖南科技大学/信息与计算科学
+- 👽兴趣爱好：爬山/摄影/电子产品
+- 👨‍💻就职意向：**Web 前端/大前端**
 
-### **Columbia University** `2016.9 - 2018.5`
+## 技术能力
 
-```
-New York, NY
-```
+- 能够使用 Angular 相关技术栈独立完成整个 Web 前端系统开发
+- Js 基础扎实，有信心在一到两周内上手主流前端框架
+- 对 Flutter 技术比较感兴趣，已经学习并尝试使用过
+- 对 Java Node.js 有一定了解，能写一些 CURD 接口
 
-- B.S. in Computer Science, _Magna Cum Laude_
-- Vision, Graphics track
+## 工作经历
 
-### **Dickinson College** `2013.9 - 2016.5`
+### 深圳市特航航空服务有限公司`2018.08 - 至今`
 
-```
-Carlisle, PA
-```
+- 负责 Web 端系统的搭建和开发
+- 负责前端公共库的搭建和维护
+- 参与需求评审/开发方案和计划制定
+- 负责 Code Review
 
-- B.S. in Computer Science, _Summa Cum Laude_
-- Computer Science Departmental Honors
+### 深圳市金证科技股份有限公司`2015.11 - 2018.07`
 
-## Publications
+- 负责日常需求开发和问题跟进
+- 负责维护和管理版本发布内容
+- 对接甲方和 PM, 制定开发计划
 
-### [**How Domain Experts Create Conceptual Diagrams and Implications for Tool Design**](assets/chi-20-natural-diagramming.pdf)
+## 项目经验
 
-Dor Ma'ayan\*, **Wode Ni\***, Katherine Ye, Chinmay Kulkarni, and Joshua Sunshine.<br>
-<i class="fas fa-award"></i> <strong>Best Paper Honourable Mention</strong><br>
-_In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems (CHI'20), to appear._<br>
-[[PDF]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.pdf)]
-[[BibTeX]({{ page.homepage.url }}/assets/chi-20-natural-diagramming.txt)]
+### 特航航空
 
-### [**Defining Visual Narratives for Mathematics Declaratively**](http://plateau-workshop.org/assets/papers-2019/9.pdf)
+- 特航统一工作平台：一个标准的后台管理系统，主要包含呼叫中心、任务处理中心、综合查询、运营管理、财务管理、系统管理等功能模块。
+- 特易行 Web 端：一个为企业客户提供便捷、高效、贴心的差旅服务系统，主要包含国内外机票、国内外酒店、火车票等出行服务。支持企业个性化定制差旅标准，提高出行效率，降低差旅成本。
+- 短信支付 H5 端：一个专用于移动端支付的应用，用户通过打开短信中的链接进行在线支付。
+- 前端公共库: 将各个系统(包括 Ionic App)中公用的代码抽取出来，打包成一个独立的库。
 
-Max Krieger, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/9.pdf)]
-[[slides]({ page.homepage.url }}/aassets/plateau-19-presentation.pdf)]
+以上项目都是我使用 **Angular** 及相关技术栈(**Ts Rxjs Ng-zorro Ng-alain Pont**), 从零开始逐步开发与迭代，到现在都已经成功上线。在这个过程中，踩坑无数，当然也收获颇丰。  
+三个技术上的里程碑：
 
-### [**Designing Declarative Language Tutorials: a Guided and Individualized Approach**](http://plateau-workshop.org/assets/papers-2019/2.pdf)
+- 启用 OnPush 变更检测策略让系统的性能得到了极大的提升
+- 重构异常捕获和错误处理以及引入 Pont 工具提高了团队开发效率以及开发体验
+- 前端公共库的建立, 提高了代码复用率的同时降低维护成本。
 
-Anael Kuperwajs Cohen, **Wode Ni**, and Joshua Sunshine.<br>
-_Evaluation and Usability of Programming Languages and Tools (PLATEAU 2019), co-located with UIST._<br>
-[[PDF](http://plateau-workshop.org/assets/papers-2019/2.pdf)]
-[[slides]({{ page.homepage.url }}/assets/plateau-19-presentation.pdf)]
+### 金证综合运营平台(金证股份)
 
-### [**Substance and Style: domain-specific languages for mathematical diagrams**](https://2017.splashcon.org/event/dsldi-2017-substance-and-style-domain-specific-languages-for-mathematical-diagrams)
+为证券公司提供统一后台各业务系统的终端，构建统一的员工工作平台。实现集中化对员工岗位权限、业务相关参数、营业部等分支机构的统一管理、对平台及各业务系统参数进行统一配置与管理，降低运营成本与难度。
 
-**Wode Ni\***, Katherine Ye\*, Joshua Sunshine, Jonathan Aldrich, and Keenan Crane.<br> _Domain-Specific Language Design and Implementation (DSLDI 2017), co-located with SPLASH._ <br>
-[[PDF]({{ page.homepage.url }}/assets/dsldi.pdf)]
-[[slides]({{ page.homepage.url }}/assets/dsldi-presentation.pdf)]
-[[www](http://penrose.ink)]
-[[repo](https://github.com/penrose/penrose)]
+- 所用技术栈：Sea.js Jquery Backbone K-ui(EasyUi) ArtTemplate
+- 我在实习期间主要做一些简单的维护工作，正式入职后开始接手需求开发，三个月后成为主力开发之一，一年后成为该项目的主要负责人。除了日常的开发维护外，还需要和甲方、PM 以及测试团队对接沟通，制定开发计划、任务安排以及版本发布计划。
 
-### [**Whiteboard Scanning Using Super-Resolution**](http://scholar.dickinson.edu/student_honors/221/)
+### Html 模板设计器(金证股份)
 
-**Wode Ni**.<br> _Dickinson College Honors Theses. Paper 221._<br>
-[[PDF]({{ page.homepage.url }}/assets/superres.pdf)]
+一个为金证综合运营平台的影像系统所服务的桌面程序。通过拖拉拽组件的方式，设计、生成出可以支持数据渲染的 Html 模板文件，得到相应的可以渲染数据的表单。
 
-----
+- 所用技术栈：Nodewebkit Jquery ArtTemplate
+- 我前期主要负责的模块：主页组装、部分组件以及数据解析、渲染等核心工具函数的开发。后期负责日常的迭代、维护、以及版本发布。
 
-## Experience
+## 自我评价
 
-### **Carnegie Mellon University, Research Experiences for Undergraduate** `2017.5 - 2017.8`
+- 性格热情开朗 乐于结交朋友
+- 真心喜欢编程 对技术有热情
+- 学习能力不错 责任心也挺强
+- 乐于沟通 能够接受别人的建议和批评
+- 喜欢分享 会主动分享一些好的方法和工具
+- 代码洁癖 会尽自己最大努力写出可读性和可维护性强的代码
 
-_Research Assistant_<br>
-**Penrose** is a system that automatically visualizes mathematics using two domain-specific languages: **Substance** and **Style**. Co-advised by [Jonathan Aldrich](https://www.cs.cmu.edu/~./aldrich/), [Keenan Crane](https://www.cs.cmu.edu/~kmcrane/), [Joshua Sunshine](http://www.cs.cmu.edu/~jssunshi/), and [Katherine Ye](https://www.cs.cmu.edu/~kqy/), I designed and implemented the Style language, and extended the Substance language to support functions and logically quantified statements.
+## 更多信息
 
-### **Columbia University, Computer Graphics and User Interfaces Lab** `2017.1 - 2017.5`
-
-_Research Assistant_<br>
-Worked with prof. Steven Feiner, on **Cyber Affordance Visualization in Augumented Reality** project. Developed a Microsoft Hololens application that visualizes the Columbia campus in AR environment.
-
-### **AsiaInfo** `2015.6 - 2015.8`
-
-_Software Engineering Intern_<br>
-Worked on server-side web applications and server deployment tools.
-
-## Mentoring
-
-Max Krieger (CMU, independent research & [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2018 - Now` <br>
-Courtney Miller (New College of Florida, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-Anael Kuperwajs Cohen (Macalester College, [REUSE](https://www.cmu.edu/scs/isr/reuse/)) `CMU, 2019` <br>
-
-## Teaching
-
-Teaching Assistant, **Programming Languages and Translators (COMS 4115)** `Columbia, 2017 - 2018` <br>
-Teaching Assistant, **Introduction to Java II (COMP 132)** `Dickinson, 2016` <br>
-Peer Tutor, **Data Structures and Problem Solving (COMP 232)** `Dickinson, 2016` <br>
-Computer Lab Consultant `Dickinson, 2014 - 2016` <br>
-
-## Honors & Awards
-
-CHI'20 Best Paper Honourable Mention Award `CMU, 2020` <br>
-Phi Beta Kappa `Dickinson, 2018` <br>
-Excellence in Computer Science Award `Columbia, 2018` <br>
-Travel Award PL Mentoring Workshop (PLMW) `SPLASH, 2018` <br>
-Tau Beta Pi, Engineering Honor Society `Columbia, 2017` <br>
-Computer Science Departmental Honors `Dickinson, 2016` <br>
-Pi Mu Epsilon, Mathematics Honor Society `Dickinson, 2016` <br>
-Upsilon Pi Epsilon, Computer Science Honor Society `Dickinson, 2016` <br>
-Alpha Lambda Delta, First year Honor Society `Dickinson, 2013`<br>
-John Montgomery Scholarship `Dickinson, 2013` <br>
-
-## Service
-
-Research Experiences for Undergraduates in Software Engineering (REUSE) Admission Committee `CMU, 2019 - 2020`
+- Github: [https://github.com/danranVm](https://github.com/danranVm)
+- Blog: [https://blog.danran.site](https://blog.danran.site)
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Dec 2019 -->

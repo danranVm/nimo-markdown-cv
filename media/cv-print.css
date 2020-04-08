@@ -108,10 +108,6 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
 blockquote,
 q {
   quotes: none;
@@ -145,10 +141,6 @@ strong {
   font-weight: bold;
 }
 
-p strong {
-  font-weight: bold;
-}
-
 em {
   font-style: italic;
 }
@@ -156,18 +148,13 @@ em {
 h1 {
   font-family: "Avenir Next", sans-serif;
   text-align: center;
-  font-size: 50pt;
-  font-weight: lighter;
-  position: relative;
-  line-height: 1.2em;
+  font-size: 32pt;
+  font-weight: normal;
+  line-height: 1em;
   position: relative;
   /* left: 28%; */
 }
 
-h1 strong {
-  font-weight: normal !important;
-  line-height: 1em;
-}
 
 /* Section headers */
 h2 {
@@ -181,6 +168,7 @@ h2 {
   margin-bottom: 0.5em;
   width: 100%;
 }
+
 h2:after {
   border-bottom: 1.7px dashed #d3d3d3;
   /* height: 0.8em; */
@@ -189,39 +177,45 @@ h2:after {
   flex: 1;
 }
 
-h3 strong {
-  /* line-height: 2.5em; */
-}
 
 h3 {
+  font-weight: bold;
   margin-top: 10px;
 }
 
 code {
   font-family: "Palatino";
   font-style: italic;
+  font-weight: normal;
   float: right;
 }
 
-li:before {
-  content: "-";
-  position: relative;
-  left: -0.5em;
+p  {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
-li {
-  /*second line indent*/
-  padding-left: 2.25em;
-  text-indent: -1.25em;
-  /*color: #777;*/
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  padding-left: 1.2em;
 }
 
 #contact-info {
   text-align: center;
   position: relative;
+  font-size: 120%;
   font-weight: lighter;
-  color: #ccc;
   /* font-family: Menlo,monospace,sans-serif; */
+
 }
 
 #contact-info a {
